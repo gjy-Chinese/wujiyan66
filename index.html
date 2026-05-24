@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>八年级九班 - 帅气风采展示</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+
+        /* 页面背景 */
+        body {
+            background-color: #f5f7fa;
+            padding: 20px;
+        }
+
+        /* 班级标题区域 */
+        .header {
+            text-align: center;
+            margin: 40px 0;
+            color: #2c3e50;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            color: #1a237e;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header p {
+            font-size: 18px;
+            color: #546e7a;
+        }
+
+        /* 照片墙容器 */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 25px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* 照片卡片样式 */
+        .photo-card {
+            height: 320px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: all 0.4s ease;
+            cursor: pointer;
+            position: relative;
+        }
+
+        /* 卡片悬停炫酷效果 */
+        .photo-card:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 15px 30px rgba(26, 35, 126, 0.3);
+        }
+
+        /* 照片样式 */
+        .photo-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.4s;
+        }
+
+        /* 照片名称 */
+        .photo-name {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.7));
+            color: white;
+            padding: 25px 15px 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 班级标题 -->
+    <div class="header">
+        <h1>🎓 八年级九班</h1>
+        <p>青春不负韶华 · 少年意气风发 · 帅气风采展示（更新中，未完待续）</p>
+    </div>
+
+    <!-- 照片墙 -->
+    <div class="gallery">
+        <!-- 照片卡片 可无限复制 -->
+        <div class="photo-card">
+            <img src="image.jpg" alt="同学照片">
+            <div class="photo-name">小宝贝</div>
+        </div>
+
+        <div class="photo-card">
+            <img src="imager.jpg" alt="同学照片">
+            <div class="photo-name">飞鹤</div>
+        </div>
+
+        <div class="photo-card">
+            <img src="imagea.png" alt="同学照片">
+            <div class="photo-name">羊哲翰</div>
+        </div>
+
+        <div class="photo-card">
+            <img src="imageb.jpg" alt="同学照片">
+            <div class="photo-name">苏c</div>
+        </div>
+
+        <div class="photo-card">
+            <img src="imagec.jpg" alt="同学照片">
+            <div class="photo-name">张森烨</div>
+        </div>
+
+        <div class="photo-card">
+            <img src="imaged.jpg" alt="同学照片">
+            <div class="photo-name">卓航</div>
+        </div>
+         <div class="photo-card">
+            <img src="imagee.jpg" alt="同学照片">
+            <div class="photo-name">张睿</div>
+        </div>
+         <div class="photo-card">
+            <img src="imagef.jpg" alt="同学照片">
+            <div class="photo-name">贾浩轩</div>
+        </div>
+         <div class="photo-card">
+            <img src="imageg.jpg" alt="同学照片">
+            <div class="photo-name">吴尚霖</div>
+        </div>
+        </div>
+    </div>
+<div class="header">
+       
+        <p>ps：所有图片均已通过本人授权</p>
+    </div>
+
+</body>
+</html>
